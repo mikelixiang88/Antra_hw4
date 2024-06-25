@@ -1,0 +1,65 @@
+Question 1:
+1. A person’s telephone number: String
+2. A person’s height: Float
+3. A person’s age: Integer
+4. A person’s gender: Enum/String
+5. A person’s salary: Float
+6. A book’s ISBN: String
+7. A book’s price: Float
+8. A book’s shipping weight: Float
+9. A country’s population: Integer
+10. The number of stars in the universe: Long
+11. The number of employees in each of the small or medium businesses in
+the United Kingdom: Integer
+
+Question 2:
+Value-type variables directly contain the data. Examples of value types include:
+• int
+• enum
+• structs
+Value types are stored in the stack, and each variable has its own copy of the
+data.
+
+Reference type variables store references to their data (objects), which are stored
+in the heap. Examples of reference types in C# include:
+• class
+• interface
+
+Reference types can be shared among multiple variables, and changes to the
+object will be reflected in all variables referencing it.
+
+Boxing is the process of converting a value type to a reference type. When a
+value type is boxed, it is wrapped inside an object and stored in the heap.
+Unboxing is the process of converting a reference type back into a value type.
+It involves extracting the value type from the object that is stored in the heap.
+
+Question 3: 
+Managed resources are those that are handled by the .NET runtime’s garbage
+collector. The garbage collector automatically manages the allocation and re-
+lease of memory for these resources, reducing the risk of memory leaks.
+Unmanaged resources are not handled by the .NET garbage collector and
+must be explicitly released by the programmer.
+
+Question 4:
+The garbage collector automates memory management and improves memory
+utilization efficiency.
+
+Question 6:
+1. It creates a runtime exception.
+2. Does not cause exception. Returns positive infinity if double is positive,
+negative infinity if it is negative, or NaN if zero.
+3. It can throw an exception, or it can wrap around if not checked.
+4. • Case 1: Setting the value of x=y before the incrementation of y takes
+place.
+• Case 2: Incrementing y first and then set x=y.
+5. • continue skips the current iteration in the current loop.
+• break jumps out of the current loop.
+• return terminates the current function/method.
+6. Initialization, condition, iteration. You can have a for loop with empty
+initialization, condition, or iteration. But you need to provide these three
+arguments (they can be empty). However, that is not a good idea because
+it can cause an infinite loop if there is no condition.
+7. = set value, == check if two values are equal.
+8. Yes.
+9. It represents a discard pattern.
+10. The object must implement the IEnumerable interface.

@@ -1,0 +1,8 @@
+Question 1: String is for immutable strings, StringBuilder is for non-immutable
+strings
+Question 2: System.Array
+Question 3: Using Array.Sort()
+Question 4: The Length property
+Question 5: No
+Question 6: CopyTo() copies the elements in an array to the target array, while 
+Clone creates a shallow copy of the array.
